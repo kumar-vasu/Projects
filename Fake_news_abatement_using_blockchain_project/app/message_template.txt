@@ -1,0 +1,8 @@
+Dear ${PERSON_NAME},
+
+This is a test message.
+query number =${QUERY_NUMBER}
+http://127.0.0.1:5000/proofpage
+Have a great weekend!
+
+Yours Truly

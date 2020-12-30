@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>proof submission area</title>
+</head>
+<body>
+<center>
+    <center><h1>proof submission area</h1></center>
+    <form action="/proofpage/proof" id="proof" method="post">
+        <label for="proofquery">Query Number:</label>
+        <input type="number" id="proofquery" name="proofquery" min="0" max="10000000">
+        <textarea name="content" rows="4" cols="50" placeholder="enter proof that you have whatever you want to..."></textarea>
+        <br>
+        <input type="text" name="author" placeholder="Your name">
+        <br>
+        <br>
+        <input type="radio" id="fake" name="certify" value="fake">
+        <label for="fake">fake</label>
+        <br>
+        <input type="radio" id="real" name="certify" value="real">
+        <label for="real">real</label><br>
+        <br>
+        <input type="submit" value="Post">
+    </form>
+    </center>
+</body>
+</html>
